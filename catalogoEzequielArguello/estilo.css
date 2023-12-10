@@ -1,0 +1,154 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 0;
+    color: #e2e8f3;
+}
+.container-bod{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: black;
+
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+aside{
+    padding: 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+
+}
+main{
+    background-color: #c4dafa;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+.producto{
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+button{
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    background-color:#5379a4;
+    border: 1px solid #5379a4;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1PX;
+    transition: transform 5ms ease-in;
+}
+.boton-carrito{
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: rgb(88, 76, 76);
+    border: 1px solid rgb(88, 76, 76);
+    transition: transform 5ms ease-in;
+    height: 3rem;
+    width: 100px;
+
+}
+.boton-aside{
+    font-size: x-large 30px;
+    border: 1rem black;
+    height: 3rem;
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-transform: none;
+
+}
+button:active{
+    transform: scale(0.98);
+}
+.producto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.producto:hover img {
+    transform: scale(1.1);
+}
+
+body {
+    background-color:black;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    
+}
+.logo{
+    height: 1500px;
+    width: 300px;
+    border-radius: 10px;
+    float: center;
+    position: sticky;
+    top: 0;
+}    
+p{
+    border: 1px solid #486f99;
+    color: #0c0c22;
+}
+h2{
+    text-align: center;
+    color: white;
+   background-color:#008080;
+   margin: 5px;
+}
+h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer{
+    background-color:#008080;
+}
+footer {
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+}
+    
+.img{
+    height: 40px;
+    width: 40px;
+}
+ 
+
+  .footer-container a {
+    color: #fff;
+
+  }
+ 
+  
+
+  
+  
